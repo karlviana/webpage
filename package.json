@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-icons": "^4.9.0",
+    "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "daisyui": "^3.0.3"
+  }
+}
