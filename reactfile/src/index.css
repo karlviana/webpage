@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Cormorant];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+    button {
+        @apply font-[Cormorant]
+    }   
+    h5 {
+        @apply font-[Aldrich]
+    }
+    input {
+        @apply font-[Cormorant]
+    }
+    textarea {
+        @apply font-[Cormorant]
+    }
+}
