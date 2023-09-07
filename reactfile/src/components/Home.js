@@ -4,7 +4,7 @@ import {TypeAnimation} from 'react-type-animation'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-site bg-no-repeat'>
+    <div name='home' className='w-full h-screen bg-site bg-no-repeat bg-cover'>
 
     {/* Container */}
     <div className='max-w-[900px] mx-auto px-5 flex flex-col justify-center h-full'>
@@ -37,7 +37,11 @@ const Home = () => {
        </div>
     </div>
     
- 
+    <div className='curve'>
+      <p>
+        asafjagsf a
+      </p>
+    </div>
 
     </div>
   )

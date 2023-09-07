@@ -9,9 +9,9 @@ const Navbar = () => {
       const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-100 font-bold bg-[#051960]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-100 font-bold'>
         <div className='font'>
-             <h5 className='text-4xl mx-4 lowercase text-[#6b66ff]'>krl</h5>
+             <h5 className='text-4xl mx-4 lowercase text-[#5170ff]'>krl</h5>
         </div>
 
             <ul className='hidden md:flex font-semibold mx-7'>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         {/* mobile view menu */}
-        <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen mx-5 bg-[#051960] flex flex-col justify-center items-center'}> 
+        <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen mx-5 flex flex-col justify-center items-center'}> 
             <ul>
                 <li className='py-6 text-lg hover:text-[#CCDCFD] text-[#e3daff]'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}>
