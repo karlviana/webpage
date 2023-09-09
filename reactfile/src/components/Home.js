@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {TypeAnimation} from 'react-type-animation'
+import './home.css';
 
 const Home = () => {
   return (
@@ -8,11 +9,9 @@ const Home = () => {
 
     {/* Container */}
     <div className='max-w-[900px] mx-auto px-5 flex flex-col justify-center h-full'>
-       <h1 className='text-[#bbbefe] font-semibold text-4xl'>Hello! I'm </h1>
-       <h2 className='text-[#bbbefe] font-semibold text-4xl'>Karl Eduard</h2>
+       <span><h1 className='text-[#bbbefe] font-semibold text-4xl'>Hello! I'm Karl Eduard</h1></span>
        <div>
-       <p className='text-[#cb98ed] font-medium text-xl max-w-[400px]'>A front end web developer that has a experience developing
-        a web using </p>
+       <p className='text-[#bbbefe] font-medium text-xl max-w-[450px]'>A web developer that has a experience developing using</p>
         <TypeAnimation
           sequence={[
                 'HTML',
@@ -25,7 +24,7 @@ const Home = () => {
                  500, 
          ]}
             speed={50}
-            className='text-[#cb98ed] font-medium text-xl '
+            className='text-[#cb98ed] font-medium text-3xl '
             repeat={Infinity}
       />
       </div>
@@ -36,13 +35,7 @@ const Home = () => {
         </button>
        </div>
     </div>
-    
-    <div className='curve'>
-      <p>
-        asafjagsf a
-      </p>
-    </div>
-
+  
     </div>
   )
 }

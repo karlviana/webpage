@@ -9,25 +9,25 @@ const Navbar = () => {
       const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-100 font-bold'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 font-bold mt-2 bg-slate-50'>
         <div className='font'>
-             <h5 className='text-4xl mx-4 lowercase text-[#5170ff]'>krl</h5>
+             <h5 className='text-4xl mx-4 lowercase text-[#5710ff]'>krl</h5>
         </div>
 
             <ul className='hidden md:flex font-semibold mx-7'>
-                <li className='hover:text-[#cb98ed] text-lg text-[#e3daff]'>
-                <Link to="home" smooth={true} duration={500}>
+                <li className='hover:text-[#cb98ed] text-lg text-[#591ad9]'>
+                <Link to="home" smooth={true} duration={500}>   
                  Home
                 </Link></li>
-                <li className='hover:text-[#cb98ed] text-lg text-[#e3daff]'>
+                <li className='hover:text-[#cb98ed] text-lg text-[#591ad9]'>
                 <Link to="about" smooth={true} duration={500}>
                  About
                 </Link></li>
-                <li className='hover:text-[#cb98ed] text-lg text-[#e3daff]'>
+                <li className='hover:text-[#cb98ed] text-lg text-[#591ad9]'>
                 <Link to="skills" smooth={true} duration={500}>
                  Skills
                 </Link></li>
-                <li className='hover:text-[#cb98ed] text-lg text-[#e3daff]'>
+                <li className='hover:text-[#cb98ed] text-lg text-[#591ad9]'>
                 <Link to="contact" smooth={true} duration={500}>
                 Contact
                 </Link></li>
@@ -65,7 +65,7 @@ const Navbar = () => {
         </div>
 
         {/* social icons */}
-        <div className='hidden lg:hidden fixed flex-col top-[35%] left-0'>
+        <div className=' fixed flex-col top-[35%] left-0'>
          <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a href='https://www.linkedin.com/in/karl-eduard-viana-555076244/' className='flex justify-between items-center w-full text-gray-300'>
