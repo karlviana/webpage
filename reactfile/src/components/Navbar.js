@@ -9,7 +9,7 @@ const Navbar = () => {
       const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 font-bold mt-2 bg-slate-50'>
+    <div className='fixed w-full h-[70px] flex justify-between items-center px-4 font-bold bg-slate-50'>
         <div className='font'>
              <h5 className='text-4xl mx-4 lowercase text-[#5710ff]'>krl</h5>
         </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         {/* mobile view menu */}
-        <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen mx-5 flex flex-col justify-center items-center'}> 
+        <div className={!nav ? 'hidden' : 'bg-[white] absolute top-0 left-0 w-full h-screen mx-5 flex flex-col justify-center items-center'}> 
             <ul>
                 <li className='py-6 text-lg hover:text-[#CCDCFD] text-[#e3daff]'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}>
@@ -64,7 +64,7 @@ const Navbar = () => {
             </ul>
         </div>
 
-        {/* social icons */}
+        {/* social icons 
         <div className=' fixed flex-col top-[35%] left-0'>
          <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </a>
             </li>
          </ul>
-        </div>
+        </div>*/}
 
     </div>
   )

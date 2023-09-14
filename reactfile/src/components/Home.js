@@ -8,8 +8,8 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-site bg-no-repeat bg-cover'>
 
     {/* Container */}
-    <div className='max-w-[900px] mx-auto px-5 flex flex-col justify-center h-full'>
-       <span><h1 className='text-[#bbbefe] font-semibold text-4xl'>Hello! I'm Karl Eduard</h1></span>
+    <div className='max-w-[900px] mx-auto flex flex-col justify-center h-screen'>
+       <h1 className='text-[#bbbefe] font-semibold text-4xl'>Hello! I'm Karl Eduard</h1>
        <div>
        <p className='text-[#bbbefe] font-medium text-xl max-w-[450px]'>A web developer that has a experience developing using</p>
         <TypeAnimation
