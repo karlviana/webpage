@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#EDF2FB]'>
 
-    <div className='max-w-[1000px] mx-auto flex flex-col justify-center min-h-screen '>
-       <h2 className='text-[#1B1811] font-bold text-2xl sm:text-4xl mx-3 p-2 mt-4'>Hello! I'm</h2>
+    <div className='max-w-[1000px] mx-auto flex flex-col justify-center min-h-screen'>
+       <h2 className='text-[#1B1811] font-bold text-2xl sm:text-4xl mx-3 p-2 mt-12'>Hello! I'm</h2>
        <FancyText
        gradient={{ from: '#65afff', to: '#6B00D7', type: 'radial' }}
        animateTo={{ from: '#d0A4FF', to: '#A230ED' }}

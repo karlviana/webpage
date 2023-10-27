@@ -12,7 +12,7 @@ const Navbar = () => {
              <h5 className='text-4xl mx-4 lowercase text-transparent bg-clip-text bg-gradient-to-t 
               from-[#aeecfb] via-[#41a8f9] to-[#064990] cursor-pointer'>
                <Link to="home" smooth={true} duration={500}>
-                krl
+                krl/
                 </Link>
               </h5>
         </div>
