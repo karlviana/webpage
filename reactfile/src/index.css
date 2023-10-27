@@ -2,26 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @layer base {
     body {
-        @apply font-[Cormorant];
+        @apply font-[Lato];
     }
     li {
         @apply px-4;
         @apply cursor-pointer;
     }
     button {
-        @apply font-[Cormorant]
+        @apply font-[Lato]
     }   
     h5 {
         @apply font-[Aldrich]
     }
     input {
-        @apply font-[Cormorant]
+        @apply font-[Lato]
     }
     textarea {
-        @apply font-[Cormorant]
+        @apply font-[Lato]
+    }
+}
+
+@layer utilities {
+    .nav{
+        @apply relative
+    }
+    .nav::after {
+        @apply content-[''] bg-violet-500 h-[3px] w-[0%]
+        left-2 bottom-[1px] rounded-xl absolute duration-300
+    }
+    .nav:hover::after{
+        @apply w-[80%]
     }
 }
