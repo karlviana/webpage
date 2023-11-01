@@ -30,6 +30,10 @@ const Navbar = () => {
                 <Link to="skills" smooth={true} duration={500}>
                  Skills 
                 </Link></li>
+              {/* <li className='nav hover:text-[#cb98ed] text-xl text-[#8DB8E9]'>
+                <Link to="work" smooth={true} duration={500}>
+                 Work
+                </Link></li> */}
                 <li className='nav hover:text-[#cb98ed] text-xl text-[#8DB8E9]'>
                 <Link to="contact" smooth={true} duration={500}>
                 Contact
@@ -37,7 +41,7 @@ const Navbar = () => {
             </ul>
         
         {/* burger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='md:hidden z-40'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -59,6 +63,11 @@ const Navbar = () => {
                 Skills
                 </Link>
                 </li>
+               {/*<li className='py-6 text-lg hover:text-[#cb98ed] text-[#8db8e9]'>
+                <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+                 Work
+                </Link>
+                </li>*/}
                 <li className='py-6 text-lg hover:text-[#cb98ed] text-[#8db8e9]'>
                 <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
                 Contact

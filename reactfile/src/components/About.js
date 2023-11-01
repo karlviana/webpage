@@ -1,9 +1,8 @@
-import React from 'react'
 import Profile from '../assets/bgimage.png';
 const About = () => {
   return (
     <div name='about' className='w-full min-h-screen bg-[#EDF2FB]'>
-        <div className='flex flex-col justify-center items-center w-full h-full sm:h-screen'>
+        <div data-aos="fade-up" className='flex flex-col justify-center items-center w-full h-full sm:h-screen'>
                 <div className='mt-20'>
                  <p className='text-3xl sm:text-4xl font-bold text-[#8DB8E9]'>About</p>
                 </div>
@@ -23,8 +22,8 @@ const About = () => {
                           that I need to learn back end programming language by taking a certification and training.
                           The learning I got in those will be my foundation to fully develop a web application not only the interface
                           but with back end function. 
-                          I also want to explore more on technology field like cyber security 
-                          and game development, after I achieve my goal.
+                          I also want to explore more on technology field like software engineering, cyber security 
+                          , and game development after I achieve my goal.
                         </p>
                     </div>
                 </div>

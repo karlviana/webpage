@@ -1,33 +1,30 @@
-import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import {TypeAnimation} from 'react-type-animation'
 import FancyText from '@carefully-coded/react-text-gradient';
 import {FaLinkedin,FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+  AOS.init ({
+    easing: 'ease-out-quart',
+    delay: 0,
+    duration: 900
+  })
   return (
     <div name='home' className='w-full h-screen bg-[#EDF2FB]'>
 
-    <div className='max-w-[1000px] mx-auto flex flex-col justify-center min-h-screen'>
+    <div data-aos="fade-down" className='max-w-[1000px] mx-auto flex flex-col justify-center min-h-screen'>
        <h2 className='text-[#1B1811] font-bold text-2xl sm:text-4xl mx-3 p-2 mt-12'>Hello! I'm</h2>
        <FancyText
        gradient={{ from: '#65afff', to: '#6B00D7', type: 'radial' }}
        animateTo={{ from: '#d0A4FF', to: '#A230ED' }}
-       animateDuration={1500}
+       animateDuration={1900}
        >
-       <h1 className='font-extrabold text-2xl sm:text-5xl mx-3 p-2'>Karl Eduard</h1>
+       <h1 className='font-extrabold text-4xl sm:text-6xl mx-3 p-2'>Karl Eduard</h1>
       </FancyText>
-      {/* <div>
-        <TypeAnimation
-          sequence={['Hacker', 500, 'Hackerist', 500, 'Hackerman' ,500]}
-            speed={50}
-            deletionSpeed={70}
-            className='text-[#cb98ed] font-medium text-xl sm:text-3xl m-3 p-2'
-            repeat={Infinity}
-      /> 
-      </div>*/}
-      <p className='text-[#1B1811] font-light text-sm sm:text-lg m-3 p-2 max-w-[400px] mt-9'>Led by curiosity and enthusiasm, I aim to become competent in web development.</p>
+      <p className='text-[#1B1811] font-light text-sm sm:text-lg m-3 p-2 max-w-[400px] mt-9'>Led by curiosity and enthusiasm,
+      I aim to become competent in web development and explore more on technology industry</p>
 
        <div>
         <button className='hidden'>
