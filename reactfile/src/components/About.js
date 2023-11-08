@@ -1,4 +1,5 @@
 import Profile from '../assets/bgimage.png';
+
 const About = () => {
   return (
     <div name='about' className='w-full min-h-screen bg-[#EDF2FB]'>
@@ -8,7 +9,7 @@ const About = () => {
                 </div>
             <div className='max-w-[1000px] w-full px-4 my-8 grid grid-cols-1 sm:grid-cols-2 gap-4'>
                     <div className='flex items-center justify-center'>
-                       <img src={Profile} alt='Pic img' className='rounded-xl w-[300px]'/>
+                       <img src={Profile} alt='Pic img' className='rounded-xl w-[300px] animate-bounce-slow'/>
                     </div>
                     <div>
                         <p className='text-lg sm:text-xl font-light text-[#1b1811]'>

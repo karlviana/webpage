@@ -12,18 +12,6 @@
         @apply px-4;
         @apply cursor-pointer;
     }
-    button {
-        @apply font-[Lato]
-    }   
-    h5 {
-        @apply font-[Aldrich]
-    }
-    input {
-        @apply font-[Lato]
-    }
-    textarea {
-        @apply font-[Lato]
-    }
 }
 
 @layer utilities {

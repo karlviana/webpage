@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
-import {FaBars, FaTimes} from 'react-icons/fa'
-import {Link} from 'react-scroll'
+import React, {useState} from 'react';
+import {FaBars, FaTimes} from 'react-icons/fa';
+import {Link} from 'react-scroll';
 import myLogo from '../assets/mylogo.png';
 
 const Navbar = () => {
