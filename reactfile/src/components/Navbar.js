@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
+import myLogo from '../assets/mylogo.png';
 
 const Navbar = () => {
       const [nav, setNav] = useState (false)
@@ -8,14 +9,12 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[70px] flex justify-between items-center px-4 font-bold bg-[#EDF2FB]'>
-        <div className='font'>
-             <h5 className='text-4xl mx-4 lowercase text-transparent bg-clip-text bg-gradient-to-t 
-              from-[#aeecfb] via-[#41a8f9] to-[#064990] cursor-pointer'>
+        
+             <div className='text-4xl mt-2 cursor-pointer'>
                <Link to="home" smooth={true} duration={500}>
-                krl/
+                <img src={myLogo} className='w-[55px] md:w-[75px] p-1'/>
                 </Link>
-              </h5>
-        </div>
+             </div>
 
             <ul className='hidden md:flex font-semibold mx-7'>
                 <li className='nav hover:text-[#cb98ed] text-xl text-[#8DB8E9]'>
