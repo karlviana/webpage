@@ -23,7 +23,6 @@ const Home = () => {
        >
        <h1 className='font-extrabold text-4xl sm:text-6xl mx-3 p-2 mt-3'>Karl Eduard</h1>
       </FancyText>
-      <h4 className='font-regular text-xl sm:text-2xl mx-3 p-2'>Front End Developer</h4>
       <p className='text-[#1B1811] font-light text-sm sm:text-lg m-3 p-2 max-w-[400px] mt-4'>Led by curiosity and enthusiasm,
       I aim to become competent in web development and explore more on technology industry</p>
 
